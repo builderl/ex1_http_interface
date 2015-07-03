@@ -1,0 +1,12 @@
+%% -*- erlang -*-
+{application, http_interface,
+ [{description, "A RESTful HTTP interface to simple_cache"},
+  {vsn, "=VSN="},
+  {modules,
+   [
+    =MODULES=
+   ]},
+  {registered, [hi_sup]},
+  {applications, [kernel, stdlib]},
+  {mod, {hi_app, []}}
+ ]}.
